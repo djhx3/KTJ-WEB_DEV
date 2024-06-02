@@ -17,6 +17,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+
 </head>
 
 <body>
@@ -54,8 +57,11 @@
                     Featured Playlists
                 </a>
             </div>
+                        <div id="lottie-animation" style="width: 300px; height: 200px;"></div>
+
             <img src="resources/logo.webp" class="intro-logo" alt="intro-logo">
         </div>
+
         <section id="featured-playlists"></section>
         <section id="recommended-albums"></section>
         <section id="user-reviews"></section>
@@ -64,6 +70,16 @@
     <footer id="footer">
 
     </footer>
+    <script>
+        var animation = lottie.loadAnimation({
+            container: document.getElementById('lottie-animation'), // the dom element that will contain the animation
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'resources/anim.json' // the path to the animation json
+        });
+    </script>
+
 </body>
 
 
