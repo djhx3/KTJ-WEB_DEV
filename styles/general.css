@@ -2,11 +2,17 @@ body{
     font-family: Roboto;
     background-color: rgb(20,20,20);
     color: white;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 a{
     text-decoration: none;
 }
 
 section{
+    margin: 0px;
+}
+p{
     margin: 0px;
 }

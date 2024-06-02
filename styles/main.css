@@ -1,0 +1,40 @@
+#intro-section{
+    padding-left: 20px;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.6);
+    border-radius: 20px;
+    flex-direction: row;
+
+}
+
+.intro-details{
+    display: flex;
+    flex: 6;
+    padding: 10px;
+    flex-direction: column;
+
+}
+
+.intro-logo{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    border-radius: 100px;
+    flex: 0.5;
+    transition: .15s;
+}
+
+.intro-logo:hover{
+    flex: 2;
+}
+
+.intro-featured-playlists{
+    display: flex;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #38b6ff;
+    padding: 9px;
+    transition: .15s;
+    align-self: start;
+}
