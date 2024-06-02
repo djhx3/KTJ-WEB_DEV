@@ -10,6 +10,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 15px;
+    z-index: 1;
 }
 
 .nav-elements{
