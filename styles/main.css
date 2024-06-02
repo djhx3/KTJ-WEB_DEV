@@ -38,3 +38,9 @@
     transition: .15s;
     align-self: start;
 }
+
+.intro-featured-playlists:hover{
+    padding: 20px;
+    background-color: #0062ff;
+    font-size: 20px;
+}
