@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'header-font';
+    src: url(../resources/LXGWWenKaiMonoTC-Regular.ttf);
+}
 .navigation-bar{
     background-image: linear-gradient(black,rgb(148, 0, 0));
     display: flex;
@@ -15,16 +19,18 @@
 
 .nav-elements{
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
     border-radius: 30px;
     background-color: #f95b2b;
+    font-family: header-font;
     padding: 9px;
-    transition: .15s;
+    transition: .2s;
 }
 
 .nav-elements:hover{
-    padding: 20px;
-    background-color: #ac0000;
+    padding: 13px;
+    color: black;
+    background-color: #e07127;
     font-size: 20px;
 }
 
