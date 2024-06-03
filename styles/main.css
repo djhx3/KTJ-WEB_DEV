@@ -30,7 +30,7 @@
     color: black;
     font-weight: bold;
     border-radius: 30px;
-    background-color: #38b6ff;
+    background-color: #ff5338;
     padding: 9px;
     transition: .15s;
     align-items: self-start;
@@ -38,7 +38,7 @@
 
 .intro-featured-playlists:hover{
     padding: 20px;
-    background-color: #0062ff;
+    background-color: #ac0000;
     font-size: 20px;
 }
 
@@ -70,8 +70,8 @@
 }
 
 .review-grid:hover{
-    color: black;
-    background-color: #38b6ff;
+    color: white;
+    background-color: rgb(41, 38, 38);
 }
 
 .profile-picture{
@@ -86,7 +86,7 @@
     font-weight:900;
     margin-bottom: 5px;
     margin-top: 15px;
-    color: #0062ff;
+    color: #ff5338;
 }
 
 
@@ -102,22 +102,21 @@
 }
 
 .form-fieldset{
-    border-radius: 20px;
-    color:#38b6ff;
-    border-color: #0062ff;
+    border: none;
+    color:#f95b2b;
     padding: 10px;
 }
 
 .form-input{
     color:white;
-    border-color: #38b6ff;
+    border-color: #ff5338;
     border-radius: 10px;
     background-color: rgb(20,20,20);
     padding: 5px;
 }
 
 .form-button{
-    background-color: #38b6ff;
+    background-color: #ff5338;
     border:none;
     border-radius:10px;
     padding: 3px;

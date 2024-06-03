@@ -1,5 +1,5 @@
 .navigation-bar{
-    background-color: rgb(20,20,20);
+    background-image: linear-gradient(black,rgb(148, 0, 0));
     display: flex;
     position: fixed;
     left: 0px;
@@ -17,14 +17,14 @@
     color: black;
     font-weight: bold;
     border-radius: 30px;
-    background-color: #38b6ff;
+    background-color: #f95b2b;
     padding: 9px;
     transition: .15s;
 }
 
 .nav-elements:hover{
     padding: 20px;
-    background-color: #0062ff;
+    background-color: #ac0000;
     font-size: 20px;
 }
 
