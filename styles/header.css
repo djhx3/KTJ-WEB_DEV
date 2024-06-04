@@ -18,10 +18,10 @@
 }
 
 .nav-elements{
-    color: black;
+    color: whitesmoke;
     font-weight: bolder;
     border-radius: 30px;
-    background-color: #f95b2b;
+    background-color: #a0391a;
     font-family: header-font;
     padding: 9px;
     transition: .2s;

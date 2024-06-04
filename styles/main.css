@@ -1,5 +1,5 @@
 .intro-section{
-    padding-left: 20px;
+    padding-left: 30px;
     display: flex;
     background-color:  rgb(20,20,20);
     border-radius: 20px;
@@ -27,17 +27,19 @@
 
 .intro-featured-playlists{
     display: flex;
-    color: black;
-    font-weight: bold;
+    color: whitesmoke;
+    font-weight: bolder;
     border-radius: 30px;
-    background-color: #ff5338;
+    background-image: linear-gradient(rgb(206, 54, 54),rgb(148, 0, 0));
+    margin-top: 0.1em;
+    margin-left: 0.8em;
     padding: 9px;
     transition: .15s;
     align-items: self-start;
 }
 
 .intro-featured-playlists:hover{
-    padding: 20px;
+    padding: 18px;
     background-color: #ac0000;
     font-size: 20px;
 }
